@@ -3,6 +3,7 @@ consul:
   port: 8500
 service:
   name: nestcloud-example-service
+  discoveryHost: localhost
   port: 3002
   healthCheck:
     timeout: 1s

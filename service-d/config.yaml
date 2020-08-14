@@ -2,7 +2,7 @@ consul:
   host: localhost
   port: 8500
 service:
-  name: nestcloud-example-service
+  name: nestcloud-test-service
   port: 3000
   healthCheck:
     timeout: 1s
